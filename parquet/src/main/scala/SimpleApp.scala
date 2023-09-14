@@ -11,10 +11,10 @@ object SimpleApp {
       .appName("SparkByExamples.com")
       .getOrCreate()
 
-    val data = Seq(("James ","","Smith","36636","M",3000),
-      ("Michael ","Rose","","40288","M",4000),
-      ("Robert ","","Williams","42114","M",4000),
-      ("Maria ","Anne","Jones","39192","F",4000),
+    val data = Seq(("James","","Smith","36636","M",3000),
+      ("Michael","Rose","","40288","M",4000),
+      ("Robert","","Williams","42114","M",4000),
+      ("Maria","Anne","Jones","39192","F",4000),
       ("Jen","Mary","Brown","","F",-1)
     )
 
